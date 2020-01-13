@@ -1,10 +1,4 @@
 {
   "success": false,
-  "message": "An error ocurred retrieving your redemption link. Please try again later.",
-  "redemption_link": {
-    "api_token": "string",
-    "view_count": 0,
-    "max_view_count": 0,
-    "status": "string"
-  }
+  "message": "An error ocurred retrieving your redemption link. Please try again later."
 }
