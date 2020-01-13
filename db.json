@@ -1,0 +1,104 @@
+{
+  "invoices": [
+     {
+    "invoice_number": "1",
+    "invoice_date": "2019-11-01",
+    "client_name": "client1",
+    "invoice_type": "invoice",
+    "invoice_period_start_date": "2019-11-01T17:34:33.754Z",
+    "invoice_period_end_date": "2019-11-01T17:34:33.754Z",
+    "subtotal": 100,
+    "total": 120,
+    "tax": [
+      {
+        "tax_name": "tax",
+        "tax_amount": 20,
+        "tax_jurisdiction_type": "string",
+        "tax_rate": 20
+      }
+    ],
+    "currency": "CAD"
+  },
+    {
+      "invoice_number": "2",
+    "invoice_number": "2",
+    "invoice_date": "2019-11-01",
+    "client_name": "client1",
+    "invoice_type": "invoice",
+    "invoice_period_start_date": "2019-12-01T17:34:33.754Z",
+    "invoice_period_end_date": "2019-12-01T17:34:33.754Z",
+    "subtotal": 100,
+    "total": 120,
+    "tax": [
+      {
+        "tax_name": "tax",
+        "tax_amount": 20,
+        "tax_jurisdiction_type": "string",
+        "tax_rate": 20
+      }
+    ],
+    "currency": "CAD"
+    }
+  ],
+  "transactions":[
+   {
+    "invoice_number": "1",
+    "order_item_number": "1",
+    "partner_order_item_number": "1",
+    "order_date": "2019-11-04T17:06:13.129Z",
+    "transaction_date": "2019-11-04T17:06:13.129Z",
+    "transaction_type": "transaction",
+    "currency": "CAD",
+    "product_cost_pretax": 10,
+    "product_cost_tax": [
+      {
+        "tax_name": "tax",
+        "tax_amount": 10,
+        "tax_jurisdiction_type": "tax",
+        "tax_rate": 10
+      }
+    ],
+    "shipping_cost_pretax": 10,
+    "shipping_cost_tax": [
+      {
+        "tax_name": "tax",
+        "tax_amount": 10,
+        "tax_jurisdiction_type": "tax",
+        "tax_rate": 10
+      }
+    ],
+    "handling_cost_pretax": 10,
+    "handling_cost_tax": [
+      {
+        "tax_name": "tax",
+        "tax_amount": 10,
+        "tax_jurisdiction_type": "tax",
+        "tax_rate": 10
+      }
+    ],
+    "service_charge_cost_pretax": 10,
+    "service_charge_tax": [
+      {
+        "tax_name": "tax",
+        "tax_amount": 10,
+        "tax_jurisdiction_type": "tax",
+        "tax_rate": 10
+      }
+    ],
+    "quantity": 10,
+    "note": "note",
+    "metadata": [
+      {
+        "key": "key",
+        "value": "value"
+      }
+    ],
+    "user_defined_fields": [
+      {
+        "key": "key",
+        "value": "value"
+      }
+    ]
+  }
+  ]
+}
